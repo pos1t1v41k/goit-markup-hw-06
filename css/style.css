@@ -1,4 +1,4 @@
-/*основные настройки*/
+/*-----------------------------------основные настройки----------------------------------------*/
 :root {
    --primary-text-color: #757575;
    --title-text-color: #212121;
@@ -56,7 +56,7 @@ p {
    margin: 0;
 }
 
-/*logo*/
+/*----------------------------logo---------------------------------------*/
 
 .text-logo {
    font-family: 'Raleway', sans-serif;
@@ -82,7 +82,7 @@ p {
    display: inline-block;
 }
 
-/* block header */
+/*---------------------------- block header ------------------------------------------*/
 
 .page-header {
    background-color: var(--primary-bg-color);
@@ -163,7 +163,7 @@ p {
 }
 
 
-/*контакты*/
+/*---------------------------контакты-----------------------------------*/
 .contact-header {
    display: flex;
    margin-left: auto;
@@ -212,7 +212,7 @@ p {
 }
 
 
-/* block main */
+/*---------------------------- block main -----------------------------------*/
 
 
 .overlay,
@@ -290,7 +290,7 @@ p {
    overflow: hidden;
 }
 
-/*Наши преимущества*/
+/*-------------------------Наши преимущества----------------------------------*/
 
 .features {
    background-color: var(--primary-bg-color);
@@ -361,7 +361,7 @@ p {
 
 
 
-/*чем занимаемся и наша команда*/
+/*------------------------чем занимаемся и наша команда----------------------------*/
 
 .exercise {
    padding-bottom: 94px;
@@ -412,7 +412,7 @@ p {
 
 }
 
-/* наша команда*/
+/*------------------------------------наша команда--------------------------------------*/
 
 .our-command {
    padding-top: 94px;
@@ -507,7 +507,7 @@ p {
 }
 
 
-/*---clint logo---*/
+/*--------------------------------clients logo---------------------------*/
 
 .clients {
    padding-top: 94px;
@@ -562,7 +562,7 @@ p {
 
 
 
-/* block footer */
+/*------------------------------------- block footer-------------------------------- */
 
 .footer {
    background-color: var(--secondary-bg-color);
@@ -630,7 +630,7 @@ p {
    margin-bottom: 9px;
 }
 
-/*----footer social link----*/
+/*--------------------------footer social link----------------------------*/
 
 .footer-column-list {
    display: flex;
@@ -682,8 +682,78 @@ p {
    fill: currentColor;
 }
 
+/*--------------------------------footer E-mail form-------------------------------------------*/
 
-/*кнопки сервисов*/
+.text-column {
+   margin-bottom: 20px;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--primary-white-color);
+}
+
+.email-footer {
+   padding-left: 16px;
+   width: 358px;
+   height: 50px;
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+   border-radius: 4px;
+   background-color: var(--secondary-bg-color);
+}
+
+.email-footer:hover,
+.email-footer:focus {
+   border-color: #188CE8;
+   transition-duration: var(--transition-duration);
+   transition-timing-function: var(--transition-timing-function);
+}
+
+.btn-footer-submit {
+   margin-left: 12px;
+   width: 200px;
+   height: 50px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   background-color: var(--accent-color);
+   border: none;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+   color: var(--primary-white-color);
+}
+
+.btn-footer-submit:hover,
+.btn-footer-submit:focus {
+   background-color: #188CE8;
+   transition-duration: var(--transition-duration);
+   transition-timing-function: var(--transition-timing-function);
+}
+
+.footer-form-column {
+   margin-left: auto;
+}
+
+.footer-field {
+   display: flex;
+}
+
+.icon-send {
+   margin-left: 10px;
+   align-items: center;
+   width: 24px;
+   height: 24px;
+}
+
+
+/*-------------------------------------кнопки сервисов-----------------------------------------*/
 .examples {
    padding-top: 94px;
    padding-bottom: 94px;
@@ -724,7 +794,7 @@ p {
 }
 
 
-/*каталог*/
+/*--------------------------каталог---------------------------------------------*/
 .card {
    display: flex;
    flex-wrap: wrap;
@@ -815,7 +885,7 @@ p {
    transition-timing-function: var(--transition-timing-function);
 }
 
-/*----modal----*/
+/*----------------------------------modal----------------------------------------*/
 
 .backdrop {
    position: fixed;
