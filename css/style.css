@@ -701,11 +701,12 @@ p {
    border: 1px solid rgba(255, 255, 255, 0.3);
    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
    border-radius: 4px;
-   background-color: var(--secondary-bg-color);
+   background-color: inherit;
 }
 
 .email-footer:hover,
 .email-footer:focus {
+   color: var(--primary-white-color);
    border-color: #188CE8;
    transition-duration: var(--transition-duration);
    transition-timing-function: var(--transition-timing-function);
@@ -718,6 +719,7 @@ p {
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    border-radius: 4px;
    background-color: var(--accent-color);
+   cursor: pointer;
    border: none;
    font-weight: 700;
    font-size: 16px;
@@ -989,9 +991,6 @@ p {
    transition-timing-function: var(--transition-timing-function);
 }
 
-.modal-form-field+.modal-form-field {
-   margin-top: 10px;
-}
 
 .modal-form-label {
    margin-bottom: 4px;
@@ -1001,6 +1000,7 @@ p {
 }
 
 .modal-form-input {
+   padding-left: 30px;
    border: 1px solid rgba(33, 33, 33, 0.2);
    border-radius: 4px;
    width: 448px;
@@ -1038,7 +1038,6 @@ p {
 .modal-textarea-field {
    display: flex;
    flex-direction: column;
-   margin-top: 10px;
    margin-bottom: 20px;
 }
 
@@ -1065,7 +1064,7 @@ p {
 .modal-comment-textarea:hover,
 .modal-comment-textarea:focus {
    border-color: var(--accent-color);
-   color: var(--accent-color);
+   color: var(--title-text-color);
 }
 
 .modal-comment-textarea::placeholder {
